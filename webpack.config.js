@@ -1,6 +1,7 @@
 const HtmlWebPackPlugin = require("html-webpack-plugin")
 const path = require("path")
 module.exports = {
+  devtool: "source-map",
   devServer: {
     overlay: {
       warnings: true,
