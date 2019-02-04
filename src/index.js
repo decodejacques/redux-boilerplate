@@ -10,7 +10,7 @@ let reducer = function(state, action) {
 
 const store = createStore(
   reducer,
-  { todos: [] }, // initial state
+  {}, // initial state
   window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
 )
 
